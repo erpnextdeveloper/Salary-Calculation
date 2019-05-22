@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include salary_calculation *.css
+recursive-include salary_calculation *.csv
+recursive-include salary_calculation *.html
+recursive-include salary_calculation *.ico
+recursive-include salary_calculation *.js
+recursive-include salary_calculation *.json
+recursive-include salary_calculation *.md
+recursive-include salary_calculation *.png
+recursive-include salary_calculation *.py
+recursive-include salary_calculation *.svg
+recursive-include salary_calculation *.txt
+recursive-exclude salary_calculation *.pyc
