@@ -141,7 +141,6 @@ class SalarySlip(TransactionBase):
 				""".format(holidays), {"employee": self.employee, "dt": dt})
 			if leave:
 				lwp = cint(leave[0][1]) and (lwp + 0.5) or (lwp + 1)
-		frappe.msgprint(str(lwp))
 		return lwp
 
 	def sum_components(self):
