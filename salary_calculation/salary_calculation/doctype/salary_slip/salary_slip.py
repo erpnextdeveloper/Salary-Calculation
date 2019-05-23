@@ -174,7 +174,6 @@ def add_base_component(self,amount):
 	self.append('earnings', {
 		'amount': amount,
 		'default_amount': amount,
-		'depends_on_lwp' : component.depends_on_lwp,
 		'salary_component' : component.salary_component,
 		'do_not_include_in_total' : component.do_not_include_in_total,
 		'is_tax_applicable': component.is_tax_applicable,
